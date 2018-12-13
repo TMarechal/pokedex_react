@@ -1,0 +1,2 @@
+<img>, <a>, <h1> à <h6>, <form>,
+ <input>, <textarea>, <select>, <div>, <header>

@@ -1,0 +1,183 @@
+@import "Reset.css";
+
+/*Liste verticale*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 5rem;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 2.76rem 8rem;
+    text-decoration: none;
+    background-color: #2f73aa;
+
+}
+
+.color1 {
+    color: #d31f44;
+}
+
+.font {
+    font-family: 'Marcellus', serif;
+    font-size: 1.5rem;
+}
+
+li a:hover {
+    background-color: cornsilk;
+    color: #d31f44;
+}
+
+aside>ul {
+    position: absolute;
+    top: 85px;
+    bottom: 76px;
+    left: 0px;
+    width: 10rem;
+    height: 80rem;
+    background-color: cornsilk;
+}
+
+/*Liste Horizontale*/
+.Menu {
+    list-style-type: none;
+    padding: 0.4rem;
+    overflow: hidden;
+    background-color: #2f73aa;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ol a {
+    font-family: 'Economica', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2.5rem 5rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+ol a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Titre principal*/
+h1 {
+    font-family: 'Teko', sans-serif;
+    ;
+    display: flex;
+    justify-content: center;
+    font-size: 5.5rem;
+    margin-top: 4rem;
+
+}
+
+/*Sous-titre*/
+h3 {
+    font-family: 'Marcellus', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 0.3rem;
+    margin-top: 2rem;
+}
+
+/*div paragraphe*/
+.Paragraphe {
+    display: flex;
+    justify-content: center;
+    font-family: 'Marcellus', serif;
+    border: solid 2px #d31f44;
+    max-width: 75rem;
+    margin-left: 41.5rem;
+    margin-top: 15rem;
+    padding: 3rem;
+
+}
+
+/*section*/
+section {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    top: 93.5rem;
+    width: 100%;
+    height: 10rem;
+    background-color: #2f73aa;
+}
+
+
+
+.icone3 {
+    position: absolute;
+    left: 115rem;
+    top: 95rem;
+}
+
+.icone4 {
+    position: absolute;
+    left: 105rem;
+    top: 95rem;
+}
+
+.icone2 {
+    position: absolute;
+    left: 45rem;
+    top: 95rem;
+}
+
+.icone1 {
+    position: absolute;
+    left: 35rem;
+    top: 95rem;
+}
+
+.formulaire1 {
+    background-color: white;
+    color: black;
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+    line-height: 25px;
+    padding-bottom: 18.6rem;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border-style: inset;
+    flex-direction: column;
+}
+
+
+textarea {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+
+.border {
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 400px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-bottom: 60px;
+}
